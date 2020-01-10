@@ -52,7 +52,7 @@ a:link, a:visited {
 /* editor's general field */
 .jqte {
 	overflow:hidden;
-	border:#000 1px solid;
+	/*border:#000 1px solid;*/
 	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
 	box-shadow:0 3px 3px #999; -webkit-box-shadow:0 3px 3px #999; -moz-box-shadow:0 3px 3px #999;
 	margin:30px 0
@@ -72,14 +72,14 @@ a:link, a:visited {
 }
 .jqte_tool {
 	float:left;
-	margin:0;
+	margin:3px;
 	padding:0;
 	cursor:pointer;
 }
 
 .jqte_tool, .jqte_tool_icon {
-	border:#EEE 1px solid;
-	border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px
+	border:#EEE 3px solid;
+	border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px
 }
 
 .jqte_hiddenField {
@@ -155,14 +155,14 @@ a:link, a:visited {
 }
 
 .jqte_tool:hover {
-	background-color:#FFF;
-	border-color:#FFF
+	background-color: rgba(0, 0, 0, 0.089);
+	border-color:rgba(0, 0, 0, 0.103)
 }
 .jqte_tool:hover .jqte_tool_icon {
-	border:#AAA 1px solid
+	border:rgba(170, 170, 170, 0) 3px solid
 }
 .jqte_tool:active .jqte_tool_icon {
-	border:#777 1px solid
+	border:rgba(119, 119, 119, 0) 3px solid
 }
 
 .jqte_tool_depressed {
@@ -170,10 +170,10 @@ a:link, a:visited {
 	border-color:#CCC
 }
 .jqte_tool_depressed .jqte_tool_icon {
-	border-color:#AAA
+	border-color:#DDD
 }
 .jqte_tool_depressed:hover {
-	background-color:#EEE
+	background-color:rgb(197, 197, 197)
 }
 
 /* link form area */
